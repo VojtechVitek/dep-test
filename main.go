@@ -1,7 +1,11 @@
 package main
 
-import "github.com/go-chi/docgen/raml"
+import (
+	"fmt"
 
-var _ = raml.RAML{}
+	"github.com/go-chi/docgen/raml"
+)
 
-func main() {}
+func main() {
+	fmt.Printf("%#v", raml.RAML{})
+}
