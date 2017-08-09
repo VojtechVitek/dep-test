@@ -1,0 +1,3 @@
+[[constraint]]
+  name = "github.com/go-chi/docgen/raml"
+  version = "^1.0.2"
